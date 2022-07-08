@@ -51,3 +51,9 @@ TenBM varchar(64),
 Primary Key (MaBM)
 )
 alter table GiaoVien Add Constraint FK_GiaoVien_BoMon foreign key (MaBM) references BoMon(MaBM)
+
+Create Table Khoa(
+Ma_khoa varchar(10) not null,
+Ten_khoa Varchar(30))
+
+alter table Khoa add constraint pk_khoa Primary Key(Ma_Khoa)
