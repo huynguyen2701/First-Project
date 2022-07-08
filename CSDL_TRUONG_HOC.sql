@@ -57,3 +57,5 @@ Ma_khoa varchar(10) not null,
 Ten_khoa Varchar(30))
 
 alter table Khoa add constraint pk_khoa Primary Key(Ma_Khoa)
+
+drop table Khoa
